@@ -160,3 +160,14 @@ ul {
 .button-draw:hover {
     background-color: var(--color-button-hover);
 }
+@media(max-width:900px){
+    .header-banner{
+        flex-direction: column-reverse;
+        padding: 10%;
+    }
+    .input-section{
+        justify-content: center;
+        padding: 10%;
+    }
+    
+}
